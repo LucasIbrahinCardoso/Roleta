@@ -1,1 +1,1 @@
-Nome:Kisuke,Potential:Level 3,Str:Level 3
+Nome: Kisuke,Potential: Level 3,Str: Level 5,BattleIQ: Level 2,Dex: Level 4,Velo: Level 2,Mana: Level 5,Durab: Level 4,Pow: Level 1,PTechnic: Level 4,BTechnic: Level 4,

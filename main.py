@@ -20,5 +20,16 @@ else:
 if creation_running:
     lilname = input("\nType your character name.\nR: ")
     funcoes.txt_persona(lilname)
-    funcoes.edit_character(f"{lilname}",f",Potential: {funcoes.potential()}")
-    funcoes.edit_character(f"{lilname}", ",Str:Level 3")
+    potenGuardado = funcoes.potential()
+    funcoes.edit_character(f"{lilname}",f",Potential: {potenGuardado},")
+    guardador = funcoes.nivelador(potenGuardado)
+
+    funcoes.edit_character(lilname, f"Str: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"BattleIQ: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"Dex: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"Velo: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"Mana: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"Durab: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"Pow: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"PTechnic: {funcoes.nivelador(potenGuardado)},")
+    funcoes.edit_character(lilname, f"BTechnic: {funcoes.nivelador(potenGuardado)},")
